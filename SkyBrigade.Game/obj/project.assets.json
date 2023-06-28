@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "SkyBrigade.Engine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SkyBrigade.Engine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SkyBrigade.Engine.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SkyBrigade.Engine/1.0.0": {
+      "type": "project",
+      "path": "../SkyBrigade.Engine/SkyBrigade.Engine.csproj",
+      "msbuildProject": "../SkyBrigade.Engine/SkyBrigade.Engine.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "SkyBrigade.Engine >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/bogz/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/bogz/Projects/SkyBrigade/SkyBrigade.Engine/SkyBrigade.Engine.csproj": {
+              "projectPath": "/Users/bogz/Projects/SkyBrigade/SkyBrigade.Engine/SkyBrigade.Engine.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
