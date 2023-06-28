@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyBrigade.Game", "SkyBrigade.Game\SkyBrigade.Game.csproj", "{7668E6FD-989B-447C-8AAF-60A56CBC56EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyBrigade.Engine", "SkyBrigade.Engine\SkyBrigade.Engine.csproj", "{B1661852-C890-4D2E-AA1C-94B69EC3D0CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7668E6FD-989B-447C-8AAF-60A56CBC56EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7668E6FD-989B-447C-8AAF-60A56CBC56EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7668E6FD-989B-447C-8AAF-60A56CBC56EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7668E6FD-989B-447C-8AAF-60A56CBC56EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1661852-C890-4D2E-AA1C-94B69EC3D0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1661852-C890-4D2E-AA1C-94B69EC3D0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1661852-C890-4D2E-AA1C-94B69EC3D0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1661852-C890-4D2E-AA1C-94B69EC3D0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {162E1672-E272-4ED8-B36F-8D0DA523BA98}
+	EndGlobalSection
+EndGlobal
